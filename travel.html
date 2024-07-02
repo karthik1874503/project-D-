@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Travel Website</title>
+    <link rel="stylesheet" href="travel.css">
+</head>
+<body>
+    <header>
+        <video autoplay muted loop id="backgroundVideo">
+            <source src="./855633-hd_1920_1080_25fps.mp4" type="video/mp4">
+        </video>
+       <div class="karthik">
+
+       </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#booking">Book a Trip</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Explore the World with Easeguide</h1>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to EASEEDUIDE</h2>
+        <p>Discover amazing places around the world with us!</p>
+    </section>
+
+    <section class="destinations">
+        <h2>Popular Destinations</h2>
+        <div class="destination">
+            <a href="https://www.example.com" target="_blank"><img src="./charminar.jpeg" alt="Tokyo"></a>
+            <h3>Charminar,Hyderabad</h3>
+            <p>The Iconic tourist place in hyderabad where culture speaks more than words</p>
+        </div>
+        <div class="destination">
+            <a href="https://www.example.com" target="_blank"><img src="./bidar.jpeg" alt="Tokyo"></a>
+            <h3>Bidar, Karnataka</h3>
+            <p>Explore hidden gems in Bidar</p>
+        </div>
+        <div class="destination">
+            <a href="https://www.example.com" target="_blank"><img src="./swarnagiri.jpeg" alt="Tokyo"></a>
+            <h3>Bidar, Karnataka</h3>
+            <p>Explore the Archietecture wonder integrated with Devotion</p>
+        </div>
+        <div class="destination">
+            <a href="https://www.example.com" target="_blank"><img src="./paris.jpeg" alt="Paris"></a>
+            <h3>Paris, France</h3>
+            <p>The City of Light, known for its art, fashion, and culture.</p>
+        </div>
+        <div class="destination">
+
+            <a href="https://www.example.com" target="_blank"><img src="./tokyo.jpeg" alt="Tokyo"></a>
+            <h3>Tokyo, Japan</h3>
+            <p>A bustling metropolis blending modernity with tradition.</p>
+        </div>
+    </section>
+
+    <section id="booking">
+        <h2>Book a Trip</h2>
+        <form id="bookingForm">
+            <label for="destination">Destination:</label>
+            <select id="destination" name="destination" required>
+                <option value="paris">Paris</option>
+                <option value="tokyo">Tokyo</option>
+                <option value="bidar">Bidar</option>
+                <option value="charminar">Charminar</option>
+                <option value="Swarnagiri">Swarnagiri</option>
+                <!-- Add more options as needed -->
+            </select>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a travel company dedicated to bringing you the best experiences worldwide.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="nameContact">Name:</label>
+            <input type="text" id="nameContact" name="nameContact" required>
+            <label for="emailContact">Email:</label>
+            <input type="email" id="emailContact" name="emailContact" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Travel Website. All rights reserved.</p>
+    </footer>
+
+    <script src="travel.js"></script>
+</body>
+</html>
